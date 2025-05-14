@@ -13,7 +13,7 @@ Dada uma matriz, neste exercício você deve escrever uma função que recebe um
 2. Altere o arquivo student.c
 
 # Exemplo 1
-Entrada:\
+Entrada:
 
 3 4\
 255 0 0 255\
@@ -21,7 +21,7 @@ Entrada:\
 255 0 0 255\
 255
 
-Saída:\
+Saída:
 
 255 255 255 255 255 255\
 255 255 0 0 255 255\
@@ -30,14 +30,13 @@ Saída:\
 255 255 255 255 255 255
 
 # Exemplo 2
-Entrada:\
+Entrada:
 
 1 1\
 0\
 255
 
-
-Saída:\
+Saída:
 
 255 255 255\
 255 0 255\
