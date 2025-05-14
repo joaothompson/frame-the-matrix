@@ -12,7 +12,7 @@ Dada uma matriz, neste exercício você deve escrever uma função que recebe um
 1. Altere este Readme para conter seu nome e matrícula.
 2. Altere o arquivo student.c
 
-# Exemplo 1\
+# Exemplo 1
 Entrada:\
 
 3 4\
@@ -21,7 +21,7 @@ Entrada:\
 255 0 0 255\
 255
 
-Saída:
+Saída:\
 
 255 255 255 255 255 255\
 255 255 0 0 255 255\
@@ -29,15 +29,15 @@ Saída:
 255 255 0 0 255 255\
 255 255 255 255 255 255
 
-2. Exemplo 2\
-Entrada:
+# Exemplo 2
+Entrada:\
 
 1 1\
 0\
 255
 
 
-Saída:
+Saída:\
 
 255 255 255\
 255 0 255\
