@@ -1,5 +1,5 @@
-# People Ordering Exercise
-People Ordering Exercise
+# Frame the Matrix Exercise
+Frame the Matrix Exercise
 
 # Identificação
 Nome: <Seu Nome?>
@@ -7,9 +7,7 @@ Nome: <Seu Nome?>
 Matrícula: <Sua Matrícula>
 
 # Instruções
-Uma pessoa contém três informações (Nome, idade, altura).
-
-Neste exercício você deve escrever uma função que recebe um número inteiro n (indicando a quantidade de pessoas que serão lidas), uma sequência de n informações de pessoas (P_1 P_2 ... P_n - n pessoas com nome, idade e altura). O seu algoritmo deve imprimir as pessoas em ordem crescente - devem ser considerados idade, altura, ordem na lista inicial como critérios de ordenação.
+Dada uma matriz, neste exercício você deve escrever uma função que recebe uma matriz (M) com m linhas e n colunas; e um valor padrão, std, para ser fixado nas bordas da matriz original. Seu programa deve devolver uma matriz M' com (m+2) linhas e (n+2) colunas, onde as linhas e colunas das bordas devem conter o valor padrão (std), e os valores que não estão na borda da matriz M' devem conter os valores originais de M.  
 
 1. Altere este Readme para conter seu nome e matrícula.
 2. Altere o arquivo student.c
@@ -17,35 +15,33 @@ Neste exercício você deve escrever uma função que recebe um número inteiro 
 # Exemplo 1\
 Entrada:\
 
-4\
-vinicius 11 1.1\
-joao 10 1.0\
-augusto 13 1.3\
-felipe 12 1.2
+3 4\
+255 0 0 255\
+0 255 255 0\
+255 0 0 255\
+255
 
 Saída:
 
-joao 10 1.0\
-vinicius 11 1.1\
-felipe 12 1.2\
-augusto 13 1.3
+255 255 255 255 255 255\
+255 255 0 0 255 255\
+255 0 255 255 0 255\
+255 255 0 0 255 255\
+255 255 255 255 255 255
 
 2. Exemplo 2\
 Entrada:
 
-4\
-vinicius 11 1.1\
-joao 11 1.0\
-augusto 11 1.1\
-felipe 11 1.2
+1 1\
+0\
+255
 
 
 Saída:
 
-joao 11 1.0\
-vinicius 11 1.1\
-augusto 11 1.1\
-felipe 11 1.2
+255 255 255\
+255 0 255\
+255 255 255
 
 
 
